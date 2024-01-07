@@ -17,8 +17,8 @@ const proxy = new Corrosion({
     forceHttps: true,
     requestMiddleware: [
         Corrosion.middleware.blacklist([
-            "pornhub.com",
-        ], "Porn is blocked, pervert."),
+            "discord.com",
+        ], "Using proxies can get you banned off discord because your ip changes."),
     ]
 });
 
